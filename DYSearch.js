@@ -21,24 +21,68 @@ let matchesRule = (url) => {
     return lowerUrl.includes('aweme') && lowerUrl.includes('search');
 };
 
+// Helper: Auto convert binary -> text -> json with fallback
+async function processContent(rawData, contentType = '') {
+    let rawText = '';
+    let jsonParsed = null;
+    let formatType = 'unknown';
+
+    try {
+        // 1. Handle Binary / ArrayBuffer / Blob / Uint8Array -> Text
+        if (rawData instanceof ArrayBuffer) {
+            rawText = new TextDecoder('utf-8').decode(rawData);
+            formatType = 'binary-arraybuffer';
+        } else if (rawData instanceof Blob) {
+            rawText = await rawData.text();
+            formatType = 'binary-blob';
+        } else if (ArrayBuffer.isView(rawData)) {
+            rawText = new TextDecoder('utf-8').decode(rawData.buffer);
+            formatType = 'binary-typedarray';
+        } else if (typeof rawData === 'string') {
+            rawText = rawData;
+            formatType = 'text';
+        } else if (rawData && typeof rawData === 'object') {
+            // Already an object/JSON
+            jsonParsed = rawData;
+            rawText = JSON.stringify(rawData);
+            formatType = 'json-object';
+        } else {
+            rawText = String(rawData || '');
+            formatType = 'primitive';
+        }
+
+        // 2. Try converting text -> JSON (Priority)
+        if (!jsonParsed && typeof rawText === 'string' && rawText.trim().length > 0) {
+            let trimmed = rawText.trim();
+            if ((trimmed.startsWith('{') && trimmed.endsWith('}')) || (trimmed.startsWith('[') && trimmed.endsWith(']'))) {
+                try {
+                    jsonParsed = JSON.parse(trimmed);
+                    formatType = formatType.includes('binary') ? 'binary->text->json' : 'text->json';
+                } catch (e) {
+                    // Not valid JSON, keep as text
+                }
+            }
+        }
+    } catch (err) {
+        rawText = '[Error processing content: ' + err.message + ']';
+        formatType = 'error';
+    }
+
+    return {
+        format: formatType,
+        contentType: contentType,
+        raw: rawText,
+        converted: jsonParsed !== null ? jsonParsed : rawText
+    };
+}
+
 // 1. Override Fetch API
 let originalFetch = window.fetch;
 window.fetch = async function(...args) {
     let [resource, init] = args;
     let url = typeof resource === 'string' ? resource : resource instanceof Request ? resource.url : String(resource);
-    
     let method = init && init.method ? init.method : (resource instanceof Request ? resource.method : 'GET');
     let headers = init && init.headers ? init.headers : (resource instanceof Request ? Object.fromEntries(resource.headers.entries()) : {});
-
-    // Rule Check: Block request if needed (e.g., throwing an error stops execution)
-    if (matchesRule(url)) {
-        console.warn('[Interceptor] Blocked fetch request matching rule:', url);
-        // Uncomment the line below if you want to completely block/prevent it from running:
-        // throw new Error('Blocked by network interceptor rule');
-    }
-
-    // Modify request URL or headers if needed here
-    // e.g., init = { ...init, headers: { ...headers, 'X-Custom-Header': 'value' } };
 
     let startTime = Date.now();
     let response;
@@ -49,18 +93,23 @@ window.fetch = async function(...args) {
         throw error;
     }
 
-    // If rule matches, process and save details rich object
     if (matchesRule(url)) {
-        // Clone response so we can read body without disrupting the application
         let clonedResponse = response.clone();
-        let responseText = '';
+        let contentType = clonedResponse.headers.get('content-type') || '';
+        
+        // Extract body based on type (ArrayBuffer for binary, Text otherwise)
+        let rawBodyData;
         try {
-            responseText = await clonedResponse.text();
-            // Try parsing as JSON if possible, otherwise keep text
-            try { responseText = JSON.parse(responseText); } catch (e) {}
+            if (contentType.includes('application/json') || contentType.includes('text/') || contentType.includes('javascript')) {
+                rawBodyData = await clonedResponse.text();
+            } else {
+                rawBodyData = await clonedResponse.arrayBuffer();
+            }
         } catch (e) {
-            responseText = '[Could not read response body]';
+            rawBodyData = '[Could not read response body]';
         }
+
+        let processedContent = await processContent(rawBodyData, contentType);
 
         let reqDetailsInfoRichObj = {
             url: url,
@@ -82,7 +131,7 @@ window.fetch = async function(...args) {
             type: 'fetch',
             req: reqDetailsInfoRichObj,
             res: resDetailsInfoRichObj,
-            con: responseText
+            con: processedContent
         };
 
         networkInterceptorLogs.push(logEntry);
@@ -122,13 +171,11 @@ XMLHttpRequest.prototype.send = function(body) {
         data.startTime = Date.now();
         data.body = body;
 
-        // Block rule example:
-        // xhrInstance.abort();
-        // return;
+        xhrInstance.addEventListener('load', async function() {
+            let contentType = xhrInstance.getResponseHeader('content-type') || '';
+            let rawBodyData = xhrInstance.response; // Can be text, ArrayBuffer, etc. depending on responseType
 
-        xhrInstance.addEventListener('load', function() {
-            let responseContent = xhrInstance.responseText;
-            try { responseContent = JSON.parse(responseContent); } catch (e) {}
+            let processedContent = await processContent(rawBodyData, contentType);
 
             let reqDetailsInfoRichObj = {
                 url: data.url,
@@ -150,7 +197,7 @@ XMLHttpRequest.prototype.send = function(body) {
                 type: 'xhr',
                 req: reqDetailsInfoRichObj,
                 res: resDetailsInfoRichObj,
-                con: responseContent
+                con: processedContent
             };
 
             networkInterceptorLogs.push(logEntry);
@@ -161,9 +208,28 @@ XMLHttpRequest.prototype.send = function(body) {
     return originalXSend.apply(this, arguments);
 };
 
-console.log('Network interceptor active. Listening for "aweme" & "search" in URLs...');
+console.log('Advanced Auto-Converting Network Interceptor active ("aweme" & "search")...');
 
 
+// General download function
+let download = (str, filename) => {
+    let blob = new Blob([str], { type: 'application/json;charset=utf-8;' });
+    let link = document.createElement('a');
+    let url = URL.createObjectURL(blob);
+    
+    link.setAttribute('href', url);
+    link.setAttribute('download', filename);
+    link.style.visibility = 'hidden';
+    
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+    // Release the object URL
+    setTimeout(() => {
+        URL.revokeObjectURL(url);
+    }, 1000);
+};
 
 
 
@@ -205,3 +271,6 @@ searchVAICs = searchObjs.map(a => a.data.map(a => a.aweme_info)).flat(10)
 let s = JSON.stringify(searchVAICs, null, 1)
 searchVAICs
 let sn = JSON.stringify(networkInterceptorLogs, null, 1)
+
+download(s, `DYSearch VAICs - Q="${decodeURIComponent(keyword)}".json`);
+download(s, `DYSearch - Q="${decodeURIComponent(keyword)}".json`);
