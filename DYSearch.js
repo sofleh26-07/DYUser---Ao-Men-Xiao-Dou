@@ -291,8 +291,8 @@ for (let keyword of keywords.slice(0, 1)) {
         },
         args: [keyword]
     })
-    R.push(r)
     console.log(r)
+    R.push(r)
 }
 
 function download(str, filename) {
