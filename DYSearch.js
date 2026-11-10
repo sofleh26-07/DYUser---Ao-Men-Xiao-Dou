@@ -204,4 +204,4 @@ do {
 searchVAICs = searchObjs.map(a => a.data.map(a => a.aweme_info)).flat(10)
 let s = JSON.stringify(searchVAICs, null, 1)
 searchVAICs
-networkInterceptorLogs
+let sn = JSON.stringify(networkInterceptorLogs, null, 1)
