@@ -94,3 +94,8 @@ audio_id, audio_path, paths, audio_url
 Successfully removed: Audios/7577746205690678563.mp3
 audio_id, audio_path, paths, audio_url
 7577350799236386088 Audios/7577350799236386088.mp3 {'dir': 'Transcriptions/7577350799236386088', 'json': 'Transcriptions/7577350799236386088/T.json', 'srt': 'Transcriptions/7577350799236386088/T.srt', 'txt': 'Transcriptions/7577350799236386088/T.txt', 'tlog': 'Transcriptions/7577350799236386088/T.tlog'} https://lf3-music-east.douyinstatic.com/obj/ies-music-hj/7577350859915266873.mp3
+
+[START] [39/109] (2026-11-10 09:29:36 +08) ID: 7577350799236386088 | Audio Duration: 3m 3.1s
+ -------- Pool -----------
+ • Audios/7577350799236386088.mp3 | Audio Duration: 3m 3.1s | Elapsed: 0.0s
+ -------- Pool -----------
