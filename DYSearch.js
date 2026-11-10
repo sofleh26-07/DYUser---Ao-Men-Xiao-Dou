@@ -37,7 +37,10 @@ do {
     }).then(a => a.json())
     searchObjs.push(j)
     console.log(searchObjs)
-    if(searchObjs.data.length) offset += 20
+    if (searchObjs.data.length) offset += 20
     else offset = 0
 } while (offset)
 
+
+searchVAICs = searchObjs.map(a => a.data.map(a => a.aweme_info)).flat(10)
+let s = JSON.stringify(searchVAICs, null, 1)
