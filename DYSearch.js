@@ -16,8 +16,8 @@ let keywords = [
 let R = []
 let r
 
-for (let keyword of keywords.slice(1)) {
-
+for (let keyword of keywords) {
+    await new Promise(r => setTimeout(r, 10000))
     r = await chrome.scripting.executeScript({
         target: { tabId: t.id },
         func: async function (keyword) {
