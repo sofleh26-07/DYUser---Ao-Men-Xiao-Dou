@@ -1,4 +1,4 @@
-let searchU = `aweme,search`.split(`,`)
+let searchU = `douyin.com,search`.split(`,`)
 t = await chrome.tabs.query({})
 t = t.find(a => searchU.every(b => a.url.includes(b)))
 let keywords = [
