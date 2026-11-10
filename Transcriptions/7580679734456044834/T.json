@@ -1,0 +1,39 @@
+{
+    "language": "en",
+    "segments": [
+        {
+            "start": 28.520000000000003,
+            "end": 29.92,
+            "text": " [\"Pomp and Circumstance\"]",
+            "words": [
+                {
+                    "word": " [\"Pomp",
+                    "start": 28.520000000000003,
+                    "end": 29.92
+                },
+                {
+                    "word": " and",
+                    "start": 29.92,
+                    "end": 29.92
+                },
+                {
+                    "word": " Circumstance\"]",
+                    "start": 29.92,
+                    "end": 29.92
+                }
+            ]
+        },
+        {
+            "start": 181.14,
+            "end": 182.0,
+            "text": " You",
+            "words": [
+                {
+                    "word": " You",
+                    "start": 181.14,
+                    "end": 182.0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,479 @@
+
+[Model Init] Loading Whisper model 'small' on cpu (int8)...
+[Model Init] Model loaded successfully.
+
+[Batch Start] Mapped 109 audio item(s) from JSON. Running with parallel pool = 1
+======================================================================
+audio_id, audio_path, paths, audio_url
+7699673764590395258 Audios/7699673764590395258.mp3 {'dir': 'Transcriptions/7699673764590395258', 'json': 'Transcriptions/7699673764590395258/T.json', 'srt': 'Transcriptions/7699673764590395258/T.srt', 'txt': 'Transcriptions/7699673764590395258/T.txt', 'tlog': 'Transcriptions/7699673764590395258/T.tlog'} https://lf9-music-east.douyinstatic.com/obj/ies-music-hj/7699673825952221994.mp3
+
+[START] [1/109] (2026-11-10 07:42:25 +08) ID: 7699673764590395258 | Audio Duration: 2m 9.9s
+ -------- Pool -----------
+ • Audios/7699673764590395258.mp3 | Audio Duration: 2m 9.9s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [1/109] (2026-11-10 07:44:00 +08) ID: 7699673764590395258 | Start: 2026-11-10 07:42:25 +08 | End: 2026-11-10 07:44:00 +08 | Audio Duration: 2m 9.9s (129.85s) | Time Taken: 89.05s | Transc/Audio: 68.58% | Audio/Transc: 1.46x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7699673764590395258.mp3
+audio_id, audio_path, paths, audio_url
+7698673192835719857 Audios/7698673192835719857.mp3 {'dir': 'Transcriptions/7698673192835719857', 'json': 'Transcriptions/7698673192835719857/T.json', 'srt': 'Transcriptions/7698673192835719857/T.srt', 'txt': 'Transcriptions/7698673192835719857/T.txt', 'tlog': 'Transcriptions/7698673192835719857/T.tlog'} https://lf26-music-east.douyinstatic.com/obj/ies-music-hj/7698673237445692219.mp3
+
+[START] [2/109] (2026-11-10 07:44:03 +08) ID: 7698673192835719857 | Audio Duration: 2m 32.1s
+ -------- Pool -----------
+ • Audios/7698673192835719857.mp3 | Audio Duration: 2m 32.1s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [2/109] (2026-11-10 07:45:53 +08) ID: 7698673192835719857 | Start: 2026-11-10 07:44:03 +08 | End: 2026-11-10 07:45:53 +08 | Audio Duration: 2m 32.1s (152.06s) | Time Taken: 106.34s | Transc/Audio: 69.93% | Audio/Transc: 1.43x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7698673192835719857.mp3
+audio_id, audio_path, paths, audio_url
+7698272080051146019 Audios/7698272080051146019.mp3 {'dir': 'Transcriptions/7698272080051146019', 'json': 'Transcriptions/7698272080051146019/T.json', 'srt': 'Transcriptions/7698272080051146019/T.srt', 'txt': 'Transcriptions/7698272080051146019/T.txt', 'tlog': 'Transcriptions/7698272080051146019/T.tlog'} https://sf11-cdn-tos.douyinstatic.com/obj/tos-cn-ve-2774/9054ac60d3314d90afd6fe8c4aedf84c
+
+[START] [3/109] (2026-11-10 07:45:54 +08) ID: 7698272080051146019 | Audio Duration: 3m 43.4s
+ -------- Pool -----------
+ • Audios/7698272080051146019.mp3 | Audio Duration: 3m 43.4s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [3/109] (2026-11-10 07:54:32 +08) ID: 7698272080051146019 | Start: 2026-11-10 07:45:54 +08 | End: 2026-11-10 07:54:32 +08 | Audio Duration: 3m 43.4s (223.42s) | Time Taken: 512.95s | Transc/Audio: 229.59% | Audio/Transc: 0.44x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7698272080051146019.mp3
+audio_id, audio_path, paths, audio_url
+7697904393416452539 Audios/7697904393416452539.mp3 {'dir': 'Transcriptions/7697904393416452539', 'json': 'Transcriptions/7697904393416452539/T.json', 'srt': 'Transcriptions/7697904393416452539/T.srt', 'txt': 'Transcriptions/7697904393416452539/T.txt', 'tlog': 'Transcriptions/7697904393416452539/T.tlog'} https://lf9-music-east.douyinstatic.com/obj/ies-music-hj/7697904521657862949.mp3
+
+[START] [4/109] (2026-11-10 07:54:34 +08) ID: 7697904393416452539 | Audio Duration: 2m 4.8s
+ -------- Pool -----------
+ • Audios/7697904393416452539.mp3 | Audio Duration: 2m 4.8s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [4/109] (2026-11-10 07:56:05 +08) ID: 7697904393416452539 | Start: 2026-11-10 07:54:34 +08 | End: 2026-11-10 07:56:05 +08 | Audio Duration: 2m 4.8s (124.79s) | Time Taken: 87.14s | Transc/Audio: 69.83% | Audio/Transc: 1.43x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7697904393416452539.mp3
+audio_id, audio_path, paths, audio_url
+7697177406745939240 Audios/7697177406745939240.mp3 {'dir': 'Transcriptions/7697177406745939240', 'json': 'Transcriptions/7697177406745939240/T.json', 'srt': 'Transcriptions/7697177406745939240/T.srt', 'txt': 'Transcriptions/7697177406745939240/T.txt', 'tlog': 'Transcriptions/7697177406745939240/T.tlog'} https://sf11-cdn-tos.douyinstatic.com/obj/tos-cn-ve-2774/9054ac60d3314d90afd6fe8c4aedf84c
+
+[START] [5/109] (2026-11-10 07:56:07 +08) ID: 7697177406745939240 | Audio Duration: 3m 43.4s
+ -------- Pool -----------
+ • Audios/7697177406745939240.mp3 | Audio Duration: 3m 43.4s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [5/109] (2026-11-10 08:04:54 +08) ID: 7697177406745939240 | Start: 2026-11-10 07:56:07 +08 | End: 2026-11-10 08:04:54 +08 | Audio Duration: 3m 43.4s (223.42s) | Time Taken: 522.39s | Transc/Audio: 233.81% | Audio/Transc: 0.43x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7697177406745939240.mp3
+audio_id, audio_path, paths, audio_url
+7696831686478858362 Audios/7696831686478858362.mp3 {'dir': 'Transcriptions/7696831686478858362', 'json': 'Transcriptions/7696831686478858362/T.json', 'srt': 'Transcriptions/7696831686478858362/T.srt', 'txt': 'Transcriptions/7696831686478858362/T.txt', 'tlog': 'Transcriptions/7696831686478858362/T.tlog'} https://lf3-music-east.douyinstatic.com/obj/ies-music-hj/7696831819068607291.mp3
+
+[START] [6/109] (2026-11-10 08:04:59 +08) ID: 7696831686478858362 | Audio Duration: 2m 10.2s
+ -------- Pool -----------
+ • Audios/7696831686478858362.mp3 | Audio Duration: 2m 10.2s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [6/109] (2026-11-10 08:06:31 +08) ID: 7696831686478858362 | Start: 2026-11-10 08:04:59 +08 | End: 2026-11-10 08:06:31 +08 | Audio Duration: 2m 10.2s (130.25s) | Time Taken: 87.42s | Transc/Audio: 67.12% | Audio/Transc: 1.49x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7696831686478858362.mp3
+audio_id, audio_path, paths, audio_url
+7696446827038712945 Audios/7696446827038712945.mp3 {'dir': 'Transcriptions/7696446827038712945', 'json': 'Transcriptions/7696446827038712945/T.json', 'srt': 'Transcriptions/7696446827038712945/T.srt', 'txt': 'Transcriptions/7696446827038712945/T.txt', 'tlog': 'Transcriptions/7696446827038712945/T.tlog'} https://lf9-music-east.douyinstatic.com/obj/ies-music-hj/7696446892540513061.mp3
+
+[START] [7/109] (2026-11-10 08:06:35 +08) ID: 7696446827038712945 | Audio Duration: 2m 19.9s
+ -------- Pool -----------
+ • Audios/7696446827038712945.mp3 | Audio Duration: 2m 19.9s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [7/109] (2026-11-10 08:08:20 +08) ID: 7696446827038712945 | Start: 2026-11-10 08:06:35 +08 | End: 2026-11-10 08:08:20 +08 | Audio Duration: 2m 19.9s (139.89s) | Time Taken: 101.22s | Transc/Audio: 72.36% | Audio/Transc: 1.38x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7696446827038712945.mp3
+audio_id, audio_path, paths, audio_url
+7695714541279884401 Audios/7695714541279884401.mp3 {'dir': 'Transcriptions/7695714541279884401', 'json': 'Transcriptions/7695714541279884401/T.json', 'srt': 'Transcriptions/7695714541279884401/T.srt', 'txt': 'Transcriptions/7695714541279884401/T.txt', 'tlog': 'Transcriptions/7695714541279884401/T.tlog'} https://lf26-music-east.douyinstatic.com/obj/ies-music-hj/7695714638390201125.mp3
+
+[START] [8/109] (2026-11-10 08:08:22 +08) ID: 7695714541279884401 | Audio Duration: 1m 52.9s
+ -------- Pool -----------
+ • Audios/7695714541279884401.mp3 | Audio Duration: 1m 52.9s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [8/109] (2026-11-10 08:09:34 +08) ID: 7695714541279884401 | Start: 2026-11-10 08:08:22 +08 | End: 2026-11-10 08:09:34 +08 | Audio Duration: 1m 52.9s (112.90s) | Time Taken: 68.31s | Transc/Audio: 60.50% | Audio/Transc: 1.65x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7695714541279884401.mp3
+audio_id, audio_path, paths, audio_url
+7694571612683782245 Audios/7694571612683782245.mp3 {'dir': 'Transcriptions/7694571612683782245', 'json': 'Transcriptions/7694571612683782245/T.json', 'srt': 'Transcriptions/7694571612683782245/T.srt', 'txt': 'Transcriptions/7694571612683782245/T.txt', 'tlog': 'Transcriptions/7694571612683782245/T.tlog'} https://lf26-music-east.douyinstatic.com/obj/ies-music-hj/7694571725698140977.mp3
+
+[START] [9/109] (2026-11-10 08:09:38 +08) ID: 7694571612683782245 | Audio Duration: 2m 16.9s
+ -------- Pool -----------
+ • Audios/7694571612683782245.mp3 | Audio Duration: 2m 16.9s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [9/109] (2026-11-10 08:11:12 +08) ID: 7694571612683782245 | Start: 2026-11-10 08:09:38 +08 | End: 2026-11-10 08:11:12 +08 | Audio Duration: 2m 16.9s (136.86s) | Time Taken: 90.09s | Transc/Audio: 65.83% | Audio/Transc: 1.52x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7694571612683782245.mp3
+audio_id, audio_path, paths, audio_url
+7694204222564930235 Audios/7694204222564930235.mp3 {'dir': 'Transcriptions/7694204222564930235', 'json': 'Transcriptions/7694204222564930235/T.json', 'srt': 'Transcriptions/7694204222564930235/T.srt', 'txt': 'Transcriptions/7694204222564930235/T.txt', 'tlog': 'Transcriptions/7694204222564930235/T.tlog'} https://lf9-music-east.douyinstatic.com/obj/ies-music-hj/7694204277048331057.mp3
+
+[START] [10/109] (2026-11-10 08:11:14 +08) ID: 7694204222564930235 | Audio Duration: 2m 57.4s
+ -------- Pool -----------
+ • Audios/7694204222564930235.mp3 | Audio Duration: 2m 57.4s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [10/109] (2026-11-10 08:13:23 +08) ID: 7694204222564930235 | Start: 2026-11-10 08:11:14 +08 | End: 2026-11-10 08:13:23 +08 | Audio Duration: 2m 57.4s (177.40s) | Time Taken: 123.53s | Transc/Audio: 69.63% | Audio/Transc: 1.44x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7694204222564930235.mp3
+audio_id, audio_path, paths, audio_url
+7693793045133303034 Audios/7693793045133303034.mp3 {'dir': 'Transcriptions/7693793045133303034', 'json': 'Transcriptions/7693793045133303034/T.json', 'srt': 'Transcriptions/7693793045133303034/T.srt', 'txt': 'Transcriptions/7693793045133303034/T.txt', 'tlog': 'Transcriptions/7693793045133303034/T.tlog'} https://lf3-music-east.douyinstatic.com/obj/ies-music-hj/7693793114581912357.mp3
+
+[START] [11/109] (2026-11-10 08:13:24 +08) ID: 7693793045133303034 | Audio Duration: 2m 58.2s
+ -------- Pool -----------
+ • Audios/7693793045133303034.mp3 | Audio Duration: 2m 58.2s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [11/109] (2026-11-10 08:15:27 +08) ID: 7693793045133303034 | Start: 2026-11-10 08:13:24 +08 | End: 2026-11-10 08:15:27 +08 | Audio Duration: 2m 58.2s (178.18s) | Time Taken: 118.55s | Transc/Audio: 66.53% | Audio/Transc: 1.50x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7693793045133303034.mp3
+audio_id, audio_path, paths, audio_url
+7693443220436856763 Audios/7693443220436856763.mp3 {'dir': 'Transcriptions/7693443220436856763', 'json': 'Transcriptions/7693443220436856763/T.json', 'srt': 'Transcriptions/7693443220436856763/T.srt', 'txt': 'Transcriptions/7693443220436856763/T.txt', 'tlog': 'Transcriptions/7693443220436856763/T.tlog'} https://lf9-music-east.douyinstatic.com/obj/ies-music-hj/7693443332428712753.mp3
+
+[START] [12/109] (2026-11-10 08:15:28 +08) ID: 7693443220436856763 | Audio Duration: 1m 59.1s
+ -------- Pool -----------
+ • Audios/7693443220436856763.mp3 | Audio Duration: 1m 59.1s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [12/109] (2026-11-10 08:16:48 +08) ID: 7693443220436856763 | Start: 2026-11-10 08:15:28 +08 | End: 2026-11-10 08:16:48 +08 | Audio Duration: 1m 59.1s (119.09s) | Time Taken: 75.45s | Transc/Audio: 63.35% | Audio/Transc: 1.58x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7693443220436856763.mp3
+audio_id, audio_path, paths, audio_url
+7693123056339910585 Audios/7693123056339910585.mp3 {'dir': 'Transcriptions/7693123056339910585', 'json': 'Transcriptions/7693123056339910585/T.json', 'srt': 'Transcriptions/7693123056339910585/T.srt', 'txt': 'Transcriptions/7693123056339910585/T.txt', 'tlog': 'Transcriptions/7693123056339910585/T.tlog'} https://lf26-music-east.douyinstatic.com/obj/ies-music-hj/7693123169720421169.mp3
+
+[START] [13/109] (2026-11-10 08:16:49 +08) ID: 7693123056339910585 | Audio Duration: 2m 21.1s
+ -------- Pool -----------
+ • Audios/7693123056339910585.mp3 | Audio Duration: 2m 21.1s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [13/109] (2026-11-10 08:18:36 +08) ID: 7693123056339910585 | Start: 2026-11-10 08:16:49 +08 | End: 2026-11-10 08:18:36 +08 | Audio Duration: 2m 21.1s (141.14s) | Time Taken: 102.12s | Transc/Audio: 72.36% | Audio/Transc: 1.38x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7693123056339910585.mp3
+audio_id, audio_path, paths, audio_url
+7692719137634603130 Audios/7692719137634603130.mp3 {'dir': 'Transcriptions/7692719137634603130', 'json': 'Transcriptions/7692719137634603130/T.json', 'srt': 'Transcriptions/7692719137634603130/T.srt', 'txt': 'Transcriptions/7692719137634603130/T.txt', 'tlog': 'Transcriptions/7692719137634603130/T.tlog'} https://lf3-music-east.douyinstatic.com/obj/ies-music-hj/7692719171708275515.mp3
+
+[START] [14/109] (2026-11-10 08:18:38 +08) ID: 7692719137634603130 | Audio Duration: 1m 41.7s
+ -------- Pool -----------
+ • Audios/7692719137634603130.mp3 | Audio Duration: 1m 41.7s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [14/109] (2026-11-10 08:19:39 +08) ID: 7692719137634603130 | Start: 2026-11-10 08:18:38 +08 | End: 2026-11-10 08:19:39 +08 | Audio Duration: 1m 41.7s (101.72s) | Time Taken: 56.55s | Transc/Audio: 55.59% | Audio/Transc: 1.80x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7692719137634603130.mp3
+audio_id, audio_path, paths, audio_url
+7690846414461690993 Audios/7690846414461690993.mp3 {'dir': 'Transcriptions/7690846414461690993', 'json': 'Transcriptions/7690846414461690993/T.json', 'srt': 'Transcriptions/7690846414461690993/T.srt', 'txt': 'Transcriptions/7690846414461690993/T.txt', 'tlog': 'Transcriptions/7690846414461690993/T.tlog'} https://lf26-music-east.douyinstatic.com/obj/ies-music-hj/7690846470785977125.mp3
+
+[START] [15/109] (2026-11-10 08:20:27 +08) ID: 7690846414461690993 | Audio Duration: 51.88s
+ -------- Pool -----------
+ • Audios/7690846414461690993.mp3 | Audio Duration: 51.88s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [15/109] (2026-11-10 08:20:58 +08) ID: 7690846414461690993 | Start: 2026-11-10 08:20:27 +08 | End: 2026-11-10 08:20:58 +08 | Audio Duration: 51.88s (51.88s) | Time Taken: 27.53s | Transc/Audio: 53.07% | Audio/Transc: 1.88x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7690846414461690993.mp3
+audio_id, audio_path, paths, audio_url
+7690437803893255089 Audios/7690437803893255089.mp3 {'dir': 'Transcriptions/7690437803893255089', 'json': 'Transcriptions/7690437803893255089/T.json', 'srt': 'Transcriptions/7690437803893255089/T.srt', 'txt': 'Transcriptions/7690437803893255089/T.txt', 'tlog': 'Transcriptions/7690437803893255089/T.tlog'} https://lf9-music-east.douyinstatic.com/obj/ies-music-hj/7690437918376414010.mp3
+
+[START] [16/109] (2026-11-10 08:21:01 +08) ID: 7690437803893255089 | Audio Duration: 2m 16.8s
+ -------- Pool -----------
+ • Audios/7690437803893255089.mp3 | Audio Duration: 2m 16.8s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [16/109] (2026-11-10 08:22:26 +08) ID: 7690437803893255089 | Start: 2026-11-10 08:21:01 +08 | End: 2026-11-10 08:22:26 +08 | Audio Duration: 2m 16.8s (136.78s) | Time Taken: 80.55s | Transc/Audio: 58.89% | Audio/Transc: 1.70x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7690437803893255089.mp3
+audio_id, audio_path, paths, audio_url
+7689006260293784293 Audios/7689006260293784293.mp3 {'dir': 'Transcriptions/7689006260293784293', 'json': 'Transcriptions/7689006260293784293/T.json', 'srt': 'Transcriptions/7689006260293784293/T.srt', 'txt': 'Transcriptions/7689006260293784293/T.txt', 'tlog': 'Transcriptions/7689006260293784293/T.tlog'} https://lf26-music-east.douyinstatic.com/obj/ies-music-hj/7689006366010428219.mp3
+
+[START] [17/109] (2026-11-10 08:22:28 +08) ID: 7689006260293784293 | Audio Duration: 2m 48.3s
+ -------- Pool -----------
+ • Audios/7689006260293784293.mp3 | Audio Duration: 2m 48.3s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [17/109] (2026-11-10 08:24:38 +08) ID: 7689006260293784293 | Start: 2026-11-10 08:22:28 +08 | End: 2026-11-10 08:24:38 +08 | Audio Duration: 2m 48.3s (168.31s) | Time Taken: 125.69s | Transc/Audio: 74.68% | Audio/Transc: 1.34x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7689006260293784293.mp3
+audio_id, audio_path, paths, audio_url
+7688999556810321649 Audios/7688999556810321649.mp3 {'dir': 'Transcriptions/7688999556810321649', 'json': 'Transcriptions/7688999556810321649/T.json', 'srt': 'Transcriptions/7688999556810321649/T.srt', 'txt': 'Transcriptions/7688999556810321649/T.txt', 'tlog': 'Transcriptions/7688999556810321649/T.tlog'} https://lf26-music-east.douyinstatic.com/obj/ies-music-hj/7688999659242572603.mp3
+
+[START] [18/109] (2026-11-10 08:24:42 +08) ID: 7688999556810321649 | Audio Duration: 2m 40.2s
+ -------- Pool -----------
+ • Audios/7688999556810321649.mp3 | Audio Duration: 2m 40.2s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [18/109] (2026-11-10 08:26:49 +08) ID: 7688999556810321649 | Start: 2026-11-10 08:24:42 +08 | End: 2026-11-10 08:26:49 +08 | Audio Duration: 2m 40.2s (160.18s) | Time Taken: 122.16s | Transc/Audio: 76.26% | Audio/Transc: 1.31x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7688999556810321649.mp3
+audio_id, audio_path, paths, audio_url
+7688990201779696293 Audios/7688990201779696293.mp3 {'dir': 'Transcriptions/7688990201779696293', 'json': 'Transcriptions/7688990201779696293/T.json', 'srt': 'Transcriptions/7688990201779696293/T.srt', 'txt': 'Transcriptions/7688990201779696293/T.txt', 'tlog': 'Transcriptions/7688990201779696293/T.tlog'} https://lf9-music-east.douyinstatic.com/obj/ies-music-hj/7688990206766385979.mp3
+
+[START] [19/109] (2026-11-10 08:26:50 +08) ID: 7688990201779696293 | Audio Duration: 1m 47.3s
+ -------- Pool -----------
+ • Audios/7688990201779696293.mp3 | Audio Duration: 1m 47.3s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [19/109] (2026-11-10 08:28:16 +08) ID: 7688990201779696293 | Start: 2026-11-10 08:26:50 +08 | End: 2026-11-10 08:28:16 +08 | Audio Duration: 1m 47.3s (107.34s) | Time Taken: 80.57s | Transc/Audio: 75.06% | Audio/Transc: 1.33x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7688990201779696293.mp3
+audio_id, audio_path, paths, audio_url
+7688984916663217274 Audios/7688984916663217274.mp3 {'dir': 'Transcriptions/7688984916663217274', 'json': 'Transcriptions/7688984916663217274/T.json', 'srt': 'Transcriptions/7688984916663217274/T.srt', 'txt': 'Transcriptions/7688984916663217274/T.txt', 'tlog': 'Transcriptions/7688984916663217274/T.tlog'} https://lf3-music-east.douyinstatic.com/obj/ies-music-hj/7688984950627945274.mp3
+
+[START] [20/109] (2026-11-10 08:28:28 +08) ID: 7688984916663217274 | Audio Duration: 1m 50.6s
+ -------- Pool -----------
+ • Audios/7688984916663217274.mp3 | Audio Duration: 1m 50.6s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [20/109] (2026-11-10 08:29:48 +08) ID: 7688984916663217274 | Start: 2026-11-10 08:28:28 +08 | End: 2026-11-10 08:29:48 +08 | Audio Duration: 1m 50.6s (110.58s) | Time Taken: 75.05s | Transc/Audio: 67.87% | Audio/Transc: 1.47x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7688984916663217274.mp3
+audio_id, audio_path, paths, audio_url
+7688288062279845371 Audios/7688288062279845371.mp3 {'dir': 'Transcriptions/7688288062279845371', 'json': 'Transcriptions/7688288062279845371/T.json', 'srt': 'Transcriptions/7688288062279845371/T.srt', 'txt': 'Transcriptions/7688288062279845371/T.txt', 'tlog': 'Transcriptions/7688288062279845371/T.tlog'} https://lf9-music-east.douyinstatic.com/obj/ies-music-hj/7688288072567507771.mp3
+
+[START] [21/109] (2026-11-10 08:29:48 +08) ID: 7688288062279845371 | Audio Duration: 3m 0.4s
+ -------- Pool -----------
+ • Audios/7688288062279845371.mp3 | Audio Duration: 3m 0.4s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [21/109] (2026-11-10 08:32:05 +08) ID: 7688288062279845371 | Start: 2026-11-10 08:29:48 +08 | End: 2026-11-10 08:32:05 +08 | Audio Duration: 3m 0.4s (180.40s) | Time Taken: 132.42s | Transc/Audio: 73.40% | Audio/Transc: 1.36x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7688288062279845371.mp3
+audio_id, audio_path, paths, audio_url
+7687083635456306682 Audios/7687083635456306682.mp3 {'dir': 'Transcriptions/7687083635456306682', 'json': 'Transcriptions/7687083635456306682/T.json', 'srt': 'Transcriptions/7687083635456306682/T.srt', 'txt': 'Transcriptions/7687083635456306682/T.txt', 'tlog': 'Transcriptions/7687083635456306682/T.tlog'} https://lf3-music-east.douyinstatic.com/obj/ies-music-hj/7687083666115283770.mp3
+
+[START] [22/109] (2026-11-10 08:32:07 +08) ID: 7687083635456306682 | Audio Duration: 1m 11.5s
+ -------- Pool -----------
+ • Audios/7687083635456306682.mp3 | Audio Duration: 1m 11.5s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [22/109] (2026-11-10 08:32:58 +08) ID: 7687083635456306682 | Start: 2026-11-10 08:32:07 +08 | End: 2026-11-10 08:32:58 +08 | Audio Duration: 1m 11.5s (71.55s) | Time Taken: 46.28s | Transc/Audio: 64.68% | Audio/Transc: 1.55x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7687083635456306682.mp3
+audio_id, audio_path, paths, audio_url
+7676320576646847611 Audios/7676320576646847611.mp3 {'dir': 'Transcriptions/7676320576646847611', 'json': 'Transcriptions/7676320576646847611/T.json', 'srt': 'Transcriptions/7676320576646847611/T.srt', 'txt': 'Transcriptions/7676320576646847611/T.txt', 'tlog': 'Transcriptions/7676320576646847611/T.tlog'} https://lf3-music-east.douyinstatic.com/obj/ies-music-hj/7676320592127167269.mp3
+
+[START] [23/109] (2026-11-10 08:33:02 +08) ID: 7676320576646847611 | Audio Duration: 2m 15.8s
+ -------- Pool -----------
+ • Audios/7676320576646847611.mp3 | Audio Duration: 2m 15.8s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [23/109] (2026-11-10 08:34:24 +08) ID: 7676320576646847611 | Start: 2026-11-10 08:33:02 +08 | End: 2026-11-10 08:34:24 +08 | Audio Duration: 2m 15.8s (135.81s) | Time Taken: 77.68s | Transc/Audio: 57.19% | Audio/Transc: 1.75x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7676320576646847611.mp3
+audio_id, audio_path, paths, audio_url
+7646689163764595643 Audios/7646689163764595643.mp3 {'dir': 'Transcriptions/7646689163764595643', 'json': 'Transcriptions/7646689163764595643/T.json', 'srt': 'Transcriptions/7646689163764595643/T.srt', 'txt': 'Transcriptions/7646689163764595643/T.txt', 'tlog': 'Transcriptions/7646689163764595643/T.tlog'} https://lf9-music-east.douyinstatic.com/obj/ies-music-hj/7646689120424610619.mp3
+
+[START] [24/109] (2026-11-10 08:34:26 +08) ID: 7646689163764595643 | Audio Duration: 4m 0.8s
+ -------- Pool -----------
+ • Audios/7646689163764595643.mp3 | Audio Duration: 4m 0.8s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [24/109] (2026-11-10 08:36:52 +08) ID: 7646689163764595643 | Start: 2026-11-10 08:34:26 +08 | End: 2026-11-10 08:36:52 +08 | Audio Duration: 4m 0.8s (240.82s) | Time Taken: 140.37s | Transc/Audio: 58.29% | Audio/Transc: 1.72x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7646689163764595643.mp3
+audio_id, audio_path, paths, audio_url
+7617004790380465765 Audios/7617004790380465765.mp3 {'dir': 'Transcriptions/7617004790380465765', 'json': 'Transcriptions/7617004790380465765/T.json', 'srt': 'Transcriptions/7617004790380465765/T.srt', 'txt': 'Transcriptions/7617004790380465765/T.txt', 'tlog': 'Transcriptions/7617004790380465765/T.tlog'} https://lf9-music-east.douyinstatic.com/obj/ies-music-hj/7584455141735074618.mp3
+
+[START] [25/109] (2026-11-10 08:36:55 +08) ID: 7617004790380465765 | Audio Duration: 7m 11.7s
+ -------- Pool -----------
+ • Audios/7617004790380465765.mp3 | Audio Duration: 7m 11.7s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [25/109] (2026-11-10 08:39:05 +08) ID: 7617004790380465765 | Start: 2026-11-10 08:36:55 +08 | End: 2026-11-10 08:39:05 +08 | Audio Duration: 7m 11.7s (431.70s) | Time Taken: 125.51s | Transc/Audio: 29.07% | Audio/Transc: 3.44x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7617004790380465765.mp3
+audio_id, audio_path, paths, audio_url
+7585511292715257139 Audios/7585511292715257139.mp3 {'dir': 'Transcriptions/7585511292715257139', 'json': 'Transcriptions/7585511292715257139/T.json', 'srt': 'Transcriptions/7585511292715257139/T.srt', 'txt': 'Transcriptions/7585511292715257139/T.txt', 'tlog': 'Transcriptions/7585511292715257139/T.tlog'} https://sf11-cdn-tos.douyinstatic.com/obj/ies-music/7585511396335553322.mp3
+
+[START] [26/109] (2026-11-10 08:39:07 +08) ID: 7585511292715257139 | Audio Duration: 1m 16.1s
+ -------- Pool -----------
+ • Audios/7585511292715257139.mp3 | Audio Duration: 1m 16.1s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [26/109] (2026-11-10 08:40:14 +08) ID: 7585511292715257139 | Start: 2026-11-10 08:39:07 +08 | End: 2026-11-10 08:40:14 +08 | Audio Duration: 1m 16.1s (76.09s) | Time Taken: 63.07s | Transc/Audio: 82.89% | Audio/Transc: 1.21x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7585511292715257139.mp3
+audio_id, audio_path, paths, audio_url
+7585510862056623386 Audios/7585510862056623386.mp3 {'dir': 'Transcriptions/7585510862056623386', 'json': 'Transcriptions/7585510862056623386/T.json', 'srt': 'Transcriptions/7585510862056623386/T.srt', 'txt': 'Transcriptions/7585510862056623386/T.txt', 'tlog': 'Transcriptions/7585510862056623386/T.tlog'} https://sf11-cdn-tos.douyinstatic.com/obj/ies-music/7585511043299101450.mp3
+
+[START] [27/109] (2026-11-10 08:40:17 +08) ID: 7585510862056623386 | Audio Duration: 4m 2.2s
+ -------- Pool -----------
+ • Audios/7585510862056623386.mp3 | Audio Duration: 4m 2.2s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [27/109] (2026-11-10 08:43:18 +08) ID: 7585510862056623386 | Start: 2026-11-10 08:40:17 +08 | End: 2026-11-10 08:43:18 +08 | Audio Duration: 4m 2.2s (242.23s) | Time Taken: 176.11s | Transc/Audio: 72.70% | Audio/Transc: 1.38x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7585510862056623386.mp3
+audio_id, audio_path, paths, audio_url
+7585151720892697883 Audios/7585151720892697883.mp3 {'dir': 'Transcriptions/7585151720892697883', 'json': 'Transcriptions/7585151720892697883/T.json', 'srt': 'Transcriptions/7585151720892697883/T.srt', 'txt': 'Transcriptions/7585151720892697883/T.txt', 'tlog': 'Transcriptions/7585151720892697883/T.tlog'} https://sf6-cdn-tos.douyinstatic.com/obj/ies-music/7585151850914794283.mp3
+
+[START] [28/109] (2026-11-10 08:43:23 +08) ID: 7585151720892697883 | Audio Duration: 3m 54.3s
+ -------- Pool -----------
+ • Audios/7585151720892697883.mp3 | Audio Duration: 3m 54.3s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [28/109] (2026-11-10 08:46:27 +08) ID: 7585151720892697883 | Start: 2026-11-10 08:43:23 +08 | End: 2026-11-10 08:46:27 +08 | Audio Duration: 3m 54.3s (234.29s) | Time Taken: 180.04s | Transc/Audio: 76.84% | Audio/Transc: 1.30x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7585151720892697883.mp3
+audio_id, audio_path, paths, audio_url
+7584011243195731235 Audios/7584011243195731235.mp3 {'dir': 'Transcriptions/7584011243195731235', 'json': 'Transcriptions/7584011243195731235/T.json', 'srt': 'Transcriptions/7584011243195731235/T.srt', 'txt': 'Transcriptions/7584011243195731235/T.txt', 'tlog': 'Transcriptions/7584011243195731235/T.tlog'} https://sf6-cdn-tos.douyinstatic.com/obj/ies-music/7584011310396918534.mp3
+
+[START] [29/109] (2026-11-10 08:46:29 +08) ID: 7584011243195731235 | Audio Duration: 1m 38.7s
+ -------- Pool -----------
+ • Audios/7584011243195731235.mp3 | Audio Duration: 1m 38.7s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [29/109] (2026-11-10 08:47:42 +08) ID: 7584011243195731235 | Start: 2026-11-10 08:46:29 +08 | End: 2026-11-10 08:47:42 +08 | Audio Duration: 1m 38.7s (98.72s) | Time Taken: 69.19s | Transc/Audio: 70.09% | Audio/Transc: 1.43x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7584011243195731235.mp3
+audio_id, audio_path, paths, audio_url
+7582909209688214799 Audios/7582909209688214799.mp3 {'dir': 'Transcriptions/7582909209688214799', 'json': 'Transcriptions/7582909209688214799/T.json', 'srt': 'Transcriptions/7582909209688214799/T.srt', 'txt': 'Transcriptions/7582909209688214799/T.txt', 'tlog': 'Transcriptions/7582909209688214799/T.tlog'} https://v5-dy-ov-experiment.zjcdn.com/5cee77b2a4fa1bd4d8cf4370a6a1f1c8/6af3a4e5/video/tos/cn/tos-cn-vd-0026/oM7H0iB9CBpAOhAO6gAzAlYlIfxoiyAiwYgAfA/media-audio-und-mp4a/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=52&bt=52&cs=0&mime_type=video_mp4&qs=1&rc=ZjQ7aTM6OTQzODtlZzU4O0Bpams5Zm45cm54NzMzNGkzM0AuMV8xXy9jYGM0YjAuMy0uYSMwX3BlMmRjYnFhLS1kLS9zcw%3D%3D&btag=c0000e00030000&cquery=101r_100o&dy_q=1794265615&l=20261110070655D9E78B544A18D26817F7
+
+[START] [30/109] (2026-11-10 08:47:43 +08) ID: 7582909209688214799 | Audio Duration: 5m 42.6s
+ -------- Pool -----------
+ • Audios/7582909209688214799.mp3 | Audio Duration: 5m 42.6s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [30/109] (2026-11-10 08:51:12 +08) ID: 7582909209688214799 | Start: 2026-11-10 08:47:43 +08 | End: 2026-11-10 08:51:12 +08 | Audio Duration: 5m 42.6s (342.59s) | Time Taken: 203.86s | Transc/Audio: 59.51% | Audio/Transc: 1.68x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7582909209688214799.mp3
+audio_id, audio_path, paths, audio_url
+7580679734456044834 Audios/7580679734456044834.mp3 {'dir': 'Transcriptions/7580679734456044834', 'json': 'Transcriptions/7580679734456044834/T.json', 'srt': 'Transcriptions/7580679734456044834/T.srt', 'txt': 'Transcriptions/7580679734456044834/T.txt', 'tlog': 'Transcriptions/7580679734456044834/T.tlog'} https://sf11-cdn-tos.douyinstatic.com/obj/tos-cn-ve-2774/oonApReZI0EOFLiueQGI2ABdlLCACLG4aMSez2
+
+[START] [31/109] (2026-11-10 08:51:13 +08) ID: 7580679734456044834 | Audio Duration: 3m 5.0s
+ -------- Pool -----------
+ • Audios/7580679734456044834.mp3 | Audio Duration: 3m 5.0s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [31/109] (2026-11-10 08:54:38 +08) ID: 7580679734456044834 | Start: 2026-11-10 08:51:13 +08 | End: 2026-11-10 08:54:38 +08 | Audio Duration: 3m 5.0s (184.98s) | Time Taken: 199.85s | Transc/Audio: 108.04% | Audio/Transc: 0.93x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7580679734456044834.mp3
+audio_id, audio_path, paths, audio_url
+7580346451847335208 Audios/7580346451847335208.mp3 {'dir': 'Transcriptions/7580346451847335208', 'json': 'Transcriptions/7580346451847335208/T.json', 'srt': 'Transcriptions/7580346451847335208/T.srt', 'txt': 'Transcriptions/7580346451847335208/T.txt', 'tlog': 'Transcriptions/7580346451847335208/T.tlog'} https://lf26-music-east.douyinstatic.com/obj/ies-music-hj/7580346537205664569.mp3
+
+[START] [32/109] (2026-11-10 08:54:40 +08) ID: 7580346451847335208 | Audio Duration: 1m 25.9s
+ -------- Pool -----------
+ • Audios/7580346451847335208.mp3 | Audio Duration: 1m 25.9s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [32/109] (2026-11-10 08:55:51 +08) ID: 7580346451847335208 | Start: 2026-11-10 08:54:40 +08 | End: 2026-11-10 08:55:51 +08 | Audio Duration: 1m 25.9s (85.89s) | Time Taken: 66.96s | Transc/Audio: 77.96% | Audio/Transc: 1.28x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7580346451847335208.mp3
+audio_id, audio_path, paths, audio_url
+7579968045452479759 Audios/7579968045452479759.mp3 {'dir': 'Transcriptions/7579968045452479759', 'json': 'Transcriptions/7579968045452479759/T.json', 'srt': 'Transcriptions/7579968045452479759/T.srt', 'txt': 'Transcriptions/7579968045452479759/T.txt', 'tlog': 'Transcriptions/7579968045452479759/T.tlog'} https://sf6-cdn-tos.douyinstatic.com/obj/tos-cn-ve-2774/9054ac60d3314d90afd6fe8c4aedf84c
+
+[START] [33/109] (2026-11-10 08:55:54 +08) ID: 7579968045452479759 | Audio Duration: 3m 43.4s
+ -------- Pool -----------
+ • Audios/7579968045452479759.mp3 | Audio Duration: 3m 43.4s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [33/109] (2026-11-10 09:04:17 +08) ID: 7579968045452479759 | Start: 2026-11-10 08:55:54 +08 | End: 2026-11-10 09:04:17 +08 | Audio Duration: 3m 43.4s (223.42s) | Time Taken: 499.13s | Transc/Audio: 223.40% | Audio/Transc: 0.45x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7579968045452479759.mp3
+audio_id, audio_path, paths, audio_url
+7579577212869938484 Audios/7579577212869938484.mp3 {'dir': 'Transcriptions/7579577212869938484', 'json': 'Transcriptions/7579577212869938484/T.json', 'srt': 'Transcriptions/7579577212869938484/T.srt', 'txt': 'Transcriptions/7579577212869938484/T.txt', 'tlog': 'Transcriptions/7579577212869938484/T.tlog'} https://lf9-music-east.douyinstatic.com/obj/ies-music-hj/7579577276136835889.mp3
+
+[START] [34/109] (2026-11-10 09:04:20 +08) ID: 7579577212869938484 | Audio Duration: 1m 10.6s
+ -------- Pool -----------
+ • Audios/7579577212869938484.mp3 | Audio Duration: 1m 10.6s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [34/109] (2026-11-10 09:05:05 +08) ID: 7579577212869938484 | Start: 2026-11-10 09:04:20 +08 | End: 2026-11-10 09:05:05 +08 | Audio Duration: 1m 10.6s (70.64s) | Time Taken: 40.83s | Transc/Audio: 57.80% | Audio/Transc: 1.73x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7579577212869938484.mp3
+audio_id, audio_path, paths, audio_url
+7579150487648308515 Audios/7579150487648308515.mp3 {'dir': 'Transcriptions/7579150487648308515', 'json': 'Transcriptions/7579150487648308515/T.json', 'srt': 'Transcriptions/7579150487648308515/T.srt', 'txt': 'Transcriptions/7579150487648308515/T.txt', 'tlog': 'Transcriptions/7579150487648308515/T.tlog'} None
+[DOWNLOAD ERROR] Failed to download None: unknown url type: 'None'
+audio_id, audio_path, paths, audio_url
+7578850310169365795 Audios/7578850310169365795.mp3 {'dir': 'Transcriptions/7578850310169365795', 'json': 'Transcriptions/7578850310169365795/T.json', 'srt': 'Transcriptions/7578850310169365795/T.srt', 'txt': 'Transcriptions/7578850310169365795/T.txt', 'tlog': 'Transcriptions/7578850310169365795/T.tlog'} https://lf9-music-east.douyinstatic.com/obj/ies-music-hj/7578850481972235057.mp3
+
+[START] [36/109] (2026-11-10 09:05:07 +08) ID: 7578850310169365795 | Audio Duration: 3m 29.3s
+ -------- Pool -----------
+ • Audios/7578850310169365795.mp3 | Audio Duration: 3m 29.3s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [36/109] (2026-11-10 09:07:37 +08) ID: 7578850310169365795 | Start: 2026-11-10 09:05:07 +08 | End: 2026-11-10 09:07:37 +08 | Audio Duration: 3m 29.3s (209.27s) | Time Taken: 145.15s | Transc/Audio: 69.36% | Audio/Transc: 1.44x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7578850310169365795.mp3
+audio_id, audio_path, paths, audio_url
+7578121245804317967 Audios/7578121245804317967.mp3 {'dir': 'Transcriptions/7578121245804317967', 'json': 'Transcriptions/7578121245804317967/T.json', 'srt': 'Transcriptions/7578121245804317967/T.srt', 'txt': 'Transcriptions/7578121245804317967/T.txt', 'tlog': 'Transcriptions/7578121245804317967/T.tlog'} https://sf6-cdn-tos.douyinstatic.com/obj/tos-cn-ve-2774/9054ac60d3314d90afd6fe8c4aedf84c
+
+[START] [37/109] (2026-11-10 09:07:38 +08) ID: 7578121245804317967 | Audio Duration: 3m 43.4s
+ -------- Pool -----------
+ • Audios/7578121245804317967.mp3 | Audio Duration: 3m 43.4s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [37/109] (2026-11-10 09:16:25 +08) ID: 7578121245804317967 | Start: 2026-11-10 09:07:38 +08 | End: 2026-11-10 09:16:25 +08 | Audio Duration: 3m 43.4s (223.42s) | Time Taken: 522.24s | Transc/Audio: 233.75% | Audio/Transc: 0.43x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7578121245804317967.mp3
+audio_id, audio_path, paths, audio_url
+7577746205690678563 Audios/7577746205690678563.mp3 {'dir': 'Transcriptions/7577746205690678563', 'json': 'Transcriptions/7577746205690678563/T.json', 'srt': 'Transcriptions/7577746205690678563/T.srt', 'txt': 'Transcriptions/7577746205690678563/T.txt', 'tlog': 'Transcriptions/7577746205690678563/T.tlog'} https://lf26-music-east.douyinstatic.com/obj/ies-music-hj/7577746299605306161.mp3
