@@ -211,25 +211,7 @@ XMLHttpRequest.prototype.send = function(body) {
 console.log('Advanced Auto-Converting Network Interceptor active ("aweme" & "search")...');
 
 
-// General download function
-let download = (str, filename) => {
-    let blob = new Blob([str], { type: 'application/json;charset=utf-8;' });
-    let link = document.createElement('a');
-    let url = URL.createObjectURL(blob);
-    
-    link.setAttribute('href', url);
-    link.setAttribute('download', filename);
-    link.style.visibility = 'hidden';
-    
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    
-    // Release the object URL
-    setTimeout(() => {
-        URL.revokeObjectURL(url);
-    }, 1000);
-};
+
 
 
 
@@ -273,4 +255,24 @@ searchVAICs
 let sn = JSON.stringify(networkInterceptorLogs, null, 1)
 
 download(s, `DYSearch VAICs - Q="${decodeURIComponent(keyword)}".json`);
-download(s, `DYSearch - Q="${decodeURIComponent(keyword)}".json`);
+download(s, `DYSearch AllNPageConsole - Q="${decodeURIComponent(keyword)}".json`);
+
+// General download function
+function download (str, filename){
+    let blob = new Blob([str], { type: 'application/json;charset=utf-8;' });
+    let link = document.createElement('a');
+    let url = URL.createObjectURL(blob);
+    
+    link.setAttribute('href', url);
+    link.setAttribute('download', filename);
+    link.style.visibility = 'hidden';
+    
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+    // Release the object URL
+    setTimeout(() => {
+        URL.revokeObjectURL(url);
+    }, 1000);
+};
