@@ -999,3 +999,22 @@ audio_id, audio_path, paths, audio_url
  -------- Pool -----------
  • Audios/7171872285987556643.mp3 | Audio Duration: 8m 14.3s | Elapsed: 0.0s
  -------- Pool -----------
+
+[DONE]  [109/109] (2026-11-10 15:10:20 +08) ID: 7171872285987556643 | Start: 2026-11-10 15:05:11 +08 | End: 2026-11-10 15:10:20 +08 | Audio Duration: 8m 14.3s (494.34s) | Time Taken: 303.68s | Transc/Audio: 61.43% | Audio/Transc: 1.63x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7171872285987556643.mp3
+======================================================================
+                      📊 BATCH SUMMARY STATISTICS                      
+======================================================================
+ • Total Files Found         : 109
+ • Skipped (Already Complete): 0
+ • Newly Processed           : 71
+ • Total Audio Duration      : 4h 45m 0.7s (17100.67s)
+ • Total Real Wall-Clock Time: 5h 42m 23.3s (20543.28s)
+ • Real-time Speedup Factor  : 0.83x faster than real-time
+----------------------------------------------------------------------
+ 📄 Summary report saved to  : Transcriptions/summary.json
+======================================================================
+[Batch Complete Successfully]
