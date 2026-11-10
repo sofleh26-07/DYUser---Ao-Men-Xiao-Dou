@@ -1,4 +1,6 @@
-
+let searchU = `aweme,search`.split(`,`)
+t = await chrome.tabs.query({})
+t = t.find(a => searchU.every(b => a.url.includes(b)))
 let keywords = [
     "人干什么都是为了更好",
     "人干什么都是为了更好输入产出",
@@ -12,8 +14,8 @@ let keywords = [
 ]
 
 let R = []
-    let r
-    
+let r
+
 for (let keyword of keywords.slice(1)) {
 
     r = await chrome.scripting.executeScript({
@@ -289,6 +291,7 @@ for (let keyword of keywords.slice(1)) {
         },
         args: [keyword]
     })
+    console.log(r)
 }
 
 function download(str, filename) {
