@@ -1,0 +1,29 @@
+{
+    "language": "en",
+    "segments": [
+        {
+            "start": 235.9,
+            "end": 237.3,
+            "text": " You",
+            "words": [
+                {
+                    "word": " You",
+                    "start": 235.9,
+                    "end": 237.3
+                }
+            ]
+        },
+        {
+            "start": 241.94,
+            "end": 242.0,
+            "text": " You",
+            "words": [
+                {
+                    "word": " You",
+                    "start": 241.94,
+                    "end": 242.64
+                }
+            ]
+        }
+    ]
+}

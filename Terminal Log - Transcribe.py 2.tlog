@@ -294,3 +294,29 @@ audio_id, audio_path, paths, audio_url
  -------- Pool -----------
  • Audios/7513105818339593531.mp3 | Audio Duration: 2m 42.8s | Elapsed: 0.0s
  -------- Pool -----------
+
+[DONE]  [54/109] (2026-11-10 09:59:48 +08) ID: 7513105818339593531 | Start: 2026-11-10 09:58:00 +08 | End: 2026-11-10 09:59:48 +08 | Audio Duration: 2m 42.8s (162.82s) | Time Taken: 104.07s | Transc/Audio: 63.92% | Audio/Transc: 1.56x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7513105818339593531.mp3
+audio_id, audio_path, paths, audio_url
+7512397422074973499 Audios/7512397422074973499.mp3 {'dir': 'Transcriptions/7512397422074973499', 'json': 'Transcriptions/7512397422074973499/T.json', 'srt': 'Transcriptions/7512397422074973499/T.srt', 'txt': 'Transcriptions/7512397422074973499/T.txt', 'tlog': 'Transcriptions/7512397422074973499/T.tlog'} https://sf11-cdn-tos.douyinstatic.com/obj/tos-cn-ve-2774/718bf8309a594e0e9490754dc9a3ac0b
+
+[START] [55/109] (2026-11-10 09:59:50 +08) ID: 7512397422074973499 | Audio Duration: 4m 3.4s
+ -------- Pool -----------
+ • Audios/7512397422074973499.mp3 | Audio Duration: 4m 3.4s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [55/109] (2026-11-10 10:00:39 +08) ID: 7512397422074973499 | Start: 2026-11-10 09:59:50 +08 | End: 2026-11-10 10:00:39 +08 | Audio Duration: 4m 3.4s (243.36s) | Time Taken: 44.25s | Transc/Audio: 18.18% | Audio/Transc: 5.50x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7512397422074973499.mp3
+audio_id, audio_path, paths, audio_url
+7511650349934447931 Audios/7511650349934447931.mp3 {'dir': 'Transcriptions/7511650349934447931', 'json': 'Transcriptions/7511650349934447931/T.json', 'srt': 'Transcriptions/7511650349934447931/T.srt', 'txt': 'Transcriptions/7511650349934447931/T.txt', 'tlog': 'Transcriptions/7511650349934447931/T.tlog'} https://sf11-cdn-tos.douyinstatic.com/obj/tos-cn-ve-2774/9054ac60d3314d90afd6fe8c4aedf84c
+
+[START] [56/109] (2026-11-10 10:00:39 +08) ID: 7511650349934447931 | Audio Duration: 3m 43.4s
+ -------- Pool -----------
+ • Audios/7511650349934447931.mp3 | Audio Duration: 3m 43.4s | Elapsed: 0.0s
+ -------- Pool -----------
