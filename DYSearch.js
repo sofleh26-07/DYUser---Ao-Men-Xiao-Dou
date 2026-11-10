@@ -37,5 +37,7 @@ do {
     }).then(a => a.json())
     searchObjs.push(j)
     console.log(searchObjs)
-    if(searchObjs.length)
+    if(searchObjs.data.length) offset += 20
+    else offset = 0
 } while (offset)
+
