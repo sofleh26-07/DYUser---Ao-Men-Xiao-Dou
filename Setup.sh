@@ -13,3 +13,7 @@ sudo apt update && sudo apt install -y ffmpeg
 bash Speedup.sh 'YtbV - y0bR0n-0g3w -- GameSpot ---> Super Smash Bros. Ultimate – Mr. Sakurai Presents Minecraft DLC Reveal.mp3'
 bash Speedup.sh 'YtbV - rK6-ShLfQtI -- GameSpot ---> Super Smash Bros. Ultimate – Mr. Sakurai Presents "Kazuya".mp3'
 bash Speedup.sh 'YtbV - eF8gwcGoD_o -- GameSpot ---> Super Smash Bros. Ultimate The Final Mr. Sakurai Presents Full Presentation.mp3'
+
+https://github.com/sofleh26-07/DYUser---Ao-Men-Xiao-Dou/blob/main/YtbV - eF8gwcGoD_o -- GameSpot ---> Super Smash Bros. Ultimate The Final Mr. Sakurai Presents Full Presentation (1.3917).mp3
+https://github.com/sofleh26-07/DYUser---Ao-Men-Xiao-Dou/blob/main/YtbV - rK6-ShLfQtI -- GameSpot ---> Super Smash Bros. Ultimate – Mr. Sakurai Presents "Kazuya" (1.3626).mp3
+https://github.com/sofleh26-07/DYUser---Ao-Men-Xiao-Dou/blob/main/YtbV - y0bR0n-0g3w -- GameSpot ---> Super Smash Bros. Ultimate – Mr. Sakurai Presents Minecraft DLC Reveal (1.5267).mp3
