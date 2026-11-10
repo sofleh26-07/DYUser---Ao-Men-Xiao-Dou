@@ -1,4 +1,4 @@
-cat << 'EOF' > speedup.sh
+
 #!/bin/bash
 # sudo apt update && sudo apt install -y ffmpeg
 
