@@ -11,8 +11,12 @@ let keywords = [
     "人干的事都是改变产入产出都是为了更好哲学帅哥博主"
 ]
 
-for (let keyword of keywords) {
-    await chrome.scripting.executeScript({
+let R = []
+    let r
+    
+for (let keyword of keywords.slice(1)) {
+
+    r = await chrome.scripting.executeScript({
         target: { tabId: t.id },
         func: async function (keyword) {
             // Global storage for logs and rules
@@ -257,8 +261,10 @@ for (let keyword of keywords) {
             searchVAICs
             let sn = JSON.stringify(networkInterceptorLogs, null, 1)
 
-            download(s, `DYSearch VAICs - Q="${decodeURIComponent(keyword)}".json`);
-            download(s, `DYSearch AllNPageConsole - Q="${decodeURIComponent(keyword)}".json`);
+
+            return { s, sn }
+            // download(s, `DYSearch VAICs - Q="${decodeURIComponent(keyword)}".json`);
+            // download(sn, `DYSearch AllNPageConsole - Q="${decodeURIComponent(keyword)}".json`);
             // download(JSON.stringify(allN.filter(a => `aweme,search`.split(',').every(b => a.request.url.includes(b))), null, 1), `DYSearch AllNDevTools - Q="${decodeURIComponent(keyword)}".json`);
 
             // General download function
@@ -285,3 +291,21 @@ for (let keyword of keywords) {
     })
 }
 
+function download(str, filename) {
+    let blob = new Blob([str], { type: 'application/json;charset=utf-8;' });
+    let link = document.createElement('a');
+    let url = URL.createObjectURL(blob);
+
+    link.setAttribute('href', url);
+    link.setAttribute('download', filename);
+    link.style.visibility = 'hidden';
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    // Release the object URL
+    setTimeout(() => {
+        URL.revokeObjectURL(url);
+    }, 1000);
+};
