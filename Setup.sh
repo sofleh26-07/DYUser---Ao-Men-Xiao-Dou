@@ -7,3 +7,7 @@ python -u "Transcribe from DYUser VAICs JSON.py" "DYUser VAICs - 澳门小豆.js
 bash G.sh
 echo "" >> Setup.sh && git add . --ignore-removal && git commit --quiet -m "Added all Audios and Transcriptions" && git push origin HEAD && gh codespace delete --force -c $CODESPACE_NAME
 # python -u "Transcribe from DYUser VAICs JSON.py" 'To Be Processed IDs' --model turbo --pool 8 | tee "Terminal Log - Transcribe.py s 1.tlog" 2>&1
+
+bash Speedup.sh "
+bash Speedup.sh "
+bash Speedup.sh "
