@@ -1,0 +1,22 @@
+{
+    "language": "en",
+    "segments": [
+        {
+            "start": 69.88,
+            "end": 72.02,
+            "text": " Thank you.",
+            "words": [
+                {
+                    "word": " Thank",
+                    "start": 69.88,
+                    "end": 71.28
+                },
+                {
+                    "word": " you.",
+                    "start": 71.28,
+                    "end": 72.02
+                }
+            ]
+        }
+    ]
+}

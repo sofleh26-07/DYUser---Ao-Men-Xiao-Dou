@@ -843,3 +843,29 @@ audio_id, audio_path, paths, audio_url
  -------- Pool -----------
  • Audios/7176404833816055080.mp3 | Audio Duration: 3m 27.1s | Elapsed: 0.0s
  -------- Pool -----------
+
+[DONE]  [97/109] (2026-11-10 14:09:12 +08) ID: 7176404833816055080 | Start: 2026-11-10 14:07:15 +08 | End: 2026-11-10 14:09:12 +08 | Audio Duration: 3m 27.1s (207.12s) | Time Taken: 112.72s | Transc/Audio: 54.42% | Audio/Transc: 1.84x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7176404833816055080.mp3
+audio_id, audio_path, paths, audio_url
+7175788536715562274 Audios/7175788536715562274.mp3 {'dir': 'Transcriptions/7175788536715562274', 'json': 'Transcriptions/7175788536715562274/T.json', 'srt': 'Transcriptions/7175788536715562274/T.srt', 'txt': 'Transcriptions/7175788536715562274/T.txt', 'tlog': 'Transcriptions/7175788536715562274/T.tlog'} https://sf11-cdn-tos.douyinstatic.com/obj/ies-music/6923888058871204622.mp3
+
+[START] [98/109] (2026-11-10 14:09:13 +08) ID: 7175788536715562274 | Audio Duration: 1m 12.2s
+ -------- Pool -----------
+ • Audios/7175788536715562274.mp3 | Audio Duration: 1m 12.2s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [98/109] (2026-11-10 14:09:32 +08) ID: 7175788536715562274 | Start: 2026-11-10 14:09:13 +08 | End: 2026-11-10 14:09:32 +08 | Audio Duration: 1m 12.2s (72.24s) | Time Taken: 13.90s | Transc/Audio: 19.25% | Audio/Transc: 5.20x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7175788536715562274.mp3
+audio_id, audio_path, paths, audio_url
+7174937678184484131 Audios/7174937678184484131.mp3 {'dir': 'Transcriptions/7174937678184484131', 'json': 'Transcriptions/7174937678184484131/T.json', 'srt': 'Transcriptions/7174937678184484131/T.srt', 'txt': 'Transcriptions/7174937678184484131/T.txt', 'tlog': 'Transcriptions/7174937678184484131/T.tlog'} https://sf6-cdn-tos.douyinstatic.com/obj/tos-cn-ve-2774/9054ac60d3314d90afd6fe8c4aedf84c
+
+[START] [99/109] (2026-11-10 14:09:33 +08) ID: 7174937678184484131 | Audio Duration: 3m 43.4s
+ -------- Pool -----------
+ • Audios/7174937678184484131.mp3 | Audio Duration: 3m 43.4s | Elapsed: 0.0s
+ -------- Pool -----------
