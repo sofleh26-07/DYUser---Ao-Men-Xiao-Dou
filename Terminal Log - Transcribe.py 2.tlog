@@ -125,3 +125,16 @@ audio_id, audio_path, paths, audio_url
  -------- Pool -----------
  • Audios/7576552855037824297.mp3 | Audio Duration: 3m 5.0s | Elapsed: 0.0s
  -------- Pool -----------
+
+[DONE]  [41/109] (2026-11-10 09:35:24 +08) ID: 7576552855037824297 | Start: 2026-11-10 09:33:08 +08 | End: 2026-11-10 09:35:24 +08 | Audio Duration: 3m 5.0s (184.98s) | Time Taken: 131.70s | Transc/Audio: 71.20% | Audio/Transc: 1.40x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7576552855037824297.mp3
+audio_id, audio_path, paths, audio_url
+7576239969405062441 Audios/7576239969405062441.mp3 {'dir': 'Transcriptions/7576239969405062441', 'json': 'Transcriptions/7576239969405062441/T.json', 'srt': 'Transcriptions/7576239969405062441/T.srt', 'txt': 'Transcriptions/7576239969405062441/T.txt', 'tlog': 'Transcriptions/7576239969405062441/T.tlog'} https://lf9-music-east.douyinstatic.com/obj/ies-music-hj/7576240057808407355.mp3
+
+[START] [42/109] (2026-11-10 09:35:26 +08) ID: 7576239969405062441 | Audio Duration: 1m 22.3s
+ -------- Pool -----------
+ • Audios/7576239969405062441.mp3 | Audio Duration: 1m 22.3s | Elapsed: 0.0s
+ -------- Pool -----------
