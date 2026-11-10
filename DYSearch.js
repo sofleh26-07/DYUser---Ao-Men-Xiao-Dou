@@ -10,6 +10,165 @@ let keywords = [
     "人干的事都是改变产入产出都是为了更好哲学帅哥博主"
 ]
 
+
+
+// Global storage for logs and rules
+let networkInterceptorLogs = [];
+
+// Helper function to check if a URL matches your rule
+let matchesRule = (url) => {
+    let lowerUrl = String(url).toLowerCase();
+    return lowerUrl.includes('aweme') && lowerUrl.includes('search');
+};
+
+// 1. Override Fetch API
+let originalFetch = window.fetch;
+window.fetch = async function(...args) {
+    let [resource, init] = args;
+    let url = typeof resource === 'string' ? resource : resource instanceof Request ? resource.url : String(resource);
+    
+    let method = init && init.method ? init.method : (resource instanceof Request ? resource.method : 'GET');
+    let headers = init && init.headers ? init.headers : (resource instanceof Request ? Object.fromEntries(resource.headers.entries()) : {});
+
+    // Rule Check: Block request if needed (e.g., throwing an error stops execution)
+    if (matchesRule(url)) {
+        console.warn('[Interceptor] Blocked fetch request matching rule:', url);
+        // Uncomment the line below if you want to completely block/prevent it from running:
+        // throw new Error('Blocked by network interceptor rule');
+    }
+
+    // Modify request URL or headers if needed here
+    // e.g., init = { ...init, headers: { ...headers, 'X-Custom-Header': 'value' } };
+
+    let startTime = Date.now();
+    let response;
+    
+    try {
+        response = await originalFetch.apply(this, args);
+    } catch (error) {
+        throw error;
+    }
+
+    // If rule matches, process and save details rich object
+    if (matchesRule(url)) {
+        // Clone response so we can read body without disrupting the application
+        let clonedResponse = response.clone();
+        let responseText = '';
+        try {
+            responseText = await clonedResponse.text();
+            // Try parsing as JSON if possible, otherwise keep text
+            try { responseText = JSON.parse(responseText); } catch (e) {}
+        } catch (e) {
+            responseText = '[Could not read response body]';
+        }
+
+        let reqDetailsInfoRichObj = {
+            url: url,
+            method: method,
+            headers: headers,
+            body: init && init.body ? init.body : null,
+            timestamp: startTime
+        };
+
+        let resDetailsInfoRichObj = {
+            status: response.status,
+            statusText: response.statusText,
+            headers: Object.fromEntries(response.headers.entries()),
+            ok: response.ok,
+            duration: Date.now() - startTime
+        };
+
+        let logEntry = {
+            type: 'fetch',
+            req: reqDetailsInfoRichObj,
+            res: resDetailsInfoRichObj,
+            con: responseText
+        };
+
+        networkInterceptorLogs.push(logEntry);
+        console.info('[Interceptor Log Saved]', logEntry);
+    }
+
+    return response;
+};
+
+// 2. Override XMLHttpRequest (XHR)
+let originalXOpen = XMLHttpRequest.prototype.open;
+let originalXSend = XMLHttpRequest.prototype.send;
+let originalXSetRequestHeader = XMLHttpRequest.prototype.setRequestHeader;
+
+XMLHttpRequest.prototype.open = function(method, url, async, user, password) {
+    this._interceptorData = {
+        method: method,
+        url: url,
+        headers: {},
+        startTime: 0
+    };
+    return originalXOpen.apply(this, arguments);
+};
+
+XMLHttpRequest.prototype.setRequestHeader = function(header, value) {
+    if (this._interceptorData && this._interceptorData.headers) {
+        this._interceptorData.headers[header] = value;
+    }
+    return originalXSetRequestHeader.apply(this, arguments);
+};
+
+XMLHttpRequest.prototype.send = function(body) {
+    let xhrInstance = this;
+    let data = xhrInstance._interceptorData;
+
+    if (data && matchesRule(data.url)) {
+        data.startTime = Date.now();
+        data.body = body;
+
+        // Block rule example:
+        // xhrInstance.abort();
+        // return;
+
+        xhrInstance.addEventListener('load', function() {
+            let responseContent = xhrInstance.responseText;
+            try { responseContent = JSON.parse(responseContent); } catch (e) {}
+
+            let reqDetailsInfoRichObj = {
+                url: data.url,
+                method: data.method,
+                headers: data.headers,
+                body: data.body,
+                timestamp: data.startTime
+            };
+
+            let resDetailsInfoRichObj = {
+                status: xhrInstance.status,
+                statusText: xhrInstance.statusText,
+                headers: xhrInstance.getAllResponseHeaders(),
+                ok: xhrInstance.status >= 200 && xhrInstance.status < 300,
+                duration: Date.now() - data.startTime
+            };
+
+            let logEntry = {
+                type: 'xhr',
+                req: reqDetailsInfoRichObj,
+                res: resDetailsInfoRichObj,
+                con: responseContent
+            };
+
+            networkInterceptorLogs.push(logEntry);
+            console.info('[Interceptor XHR Log Saved]', logEntry);
+        });
+    }
+
+    return originalXSend.apply(this, arguments);
+};
+
+console.log('Network interceptor active. Listening for "aweme" & "search" in URLs...');
+
+
+
+
+
+
+
 let searchObjs = [], searchVAICs = []
 
 keyword = `%E4%BA%BA%E5%B9%B2%E4%BB%80%E4%B9%88%E9%83%BD%E6%98%AF%E4%B8%BA%E4%BA%86%E6%9B%B4%E5%A5%BD`, offset = 0
@@ -44,3 +203,5 @@ do {
 
 searchVAICs = searchObjs.map(a => a.data.map(a => a.aweme_info)).flat(10)
 let s = JSON.stringify(searchVAICs, null, 1)
+searchVAICs
+networkInterceptorLogs
