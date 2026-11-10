@@ -1,3 +1,4 @@
+
 let keywords = [
     "人干什么都是为了更好",
     "人干什么都是为了更好输入产出",
@@ -256,6 +257,7 @@ let sn = JSON.stringify(networkInterceptorLogs, null, 1)
 
 download(s, `DYSearch VAICs - Q="${decodeURIComponent(keyword)}".json`);
 download(s, `DYSearch AllNPageConsole - Q="${decodeURIComponent(keyword)}".json`);
+// download(JSON.stringify(allN.filter(a => `aweme,search`.split(',').every(b => a.request.url.includes(b))), null, 1), `DYSearch AllNDevTools - Q="${decodeURIComponent(keyword)}".json`);
 
 // General download function
 function download (str, filename){
