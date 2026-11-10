@@ -151,3 +151,16 @@ audio_id, audio_path, paths, audio_url
  -------- Pool -----------
  • Audios/7575533873006710079.mp3 | Audio Duration: 6m 2.6s | Elapsed: 0.0s
  -------- Pool -----------
+
+[DONE]  [43/109] (2026-11-10 09:40:33 +08) ID: 7575533873006710079 | Start: 2026-11-10 09:36:27 +08 | End: 2026-11-10 09:40:33 +08 | Audio Duration: 6m 2.6s (362.55s) | Time Taken: 240.69s | Transc/Audio: 66.39% | Audio/Transc: 1.51x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7575533873006710079.mp3
+audio_id, audio_path, paths, audio_url
+7571421316650224930 Audios/7571421316650224930.mp3 {'dir': 'Transcriptions/7571421316650224930', 'json': 'Transcriptions/7571421316650224930/T.json', 'srt': 'Transcriptions/7571421316650224930/T.srt', 'txt': 'Transcriptions/7571421316650224930/T.txt', 'tlog': 'Transcriptions/7571421316650224930/T.tlog'} https://v5-dy-ov-experiment.zjcdn.com/6b146198aa9915d3b467143aed94707c/6af3a419/video/tos/cn/tos-cn-vd-0026/o8AAAQPA7dZiSAf8NAIJBivrserMBCXNG7eBBB/media-audio-und-mp4a/?a=6383&ch=0&cr=8&dr=0&er=1&lr=default&cd=0%7C0%7C0%7C3&cv=1&br=47&bt=47&cs=4&mime_type=video_mp4&qs=14&rc=ZGk8NWU4PDk2O2YzNzpoNkBpM2lmcXM5cjxrNzMzNGkzM0AwYTMtNV9fNmBgXjNjXzAyYSNlZGBzMmRrNDZhLS1kLTBzcw%3D%3D&btag=c0000e00028000&cquery=100o_101r&dy_q=1794265616&l=2026111007065626B828A34D4269982EFE
+
+[START] [44/109] (2026-11-10 09:40:33 +08) ID: 7571421316650224930 | Audio Duration: 2m 17.7s
+ -------- Pool -----------
+ • Audios/7571421316650224930.mp3 | Audio Duration: 2m 17.7s | Elapsed: 0.0s
+ -------- Pool -----------
