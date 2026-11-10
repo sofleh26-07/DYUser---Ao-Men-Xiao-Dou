@@ -606,3 +606,19 @@ audio_id, audio_path, paths, audio_url
  -------- Pool -----------
  • Audios/7253767501413092664.mp3 | Audio Duration: 10m 16.0s | Elapsed: 0.0s
  -------- Pool -----------
+
+[DONE]  [78/109] (2026-11-10 12:09:55 +08) ID: 7253767501413092664 | Start: 2026-11-10 12:04:08 +08 | End: 2026-11-10 12:09:55 +08 | Audio Duration: 10m 16.0s (615.99s) | Time Taken: 341.21s | Transc/Audio: 55.39% | Audio/Transc: 1.81x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7253767501413092664.mp3
+audio_id, audio_path, paths, audio_url
+7228832988665072931 Audios/7228832988665072931.mp3 {'dir': 'Transcriptions/7228832988665072931', 'json': 'Transcriptions/7228832988665072931/T.json', 'srt': 'Transcriptions/7228832988665072931/T.srt', 'txt': 'Transcriptions/7228832988665072931/T.txt', 'tlog': 'Transcriptions/7228832988665072931/T.tlog'} None
+[DOWNLOAD ERROR] Failed to download None: unknown url type: 'None'
+audio_id, audio_path, paths, audio_url
+7228444352672992552 Audios/7228444352672992552.mp3 {'dir': 'Transcriptions/7228444352672992552', 'json': 'Transcriptions/7228444352672992552/T.json', 'srt': 'Transcriptions/7228444352672992552/T.srt', 'txt': 'Transcriptions/7228444352672992552/T.txt', 'tlog': 'Transcriptions/7228444352672992552/T.tlog'} https://sf11-cdn-tos.douyinstatic.com/obj/tos-cn-ve-2774/9054ac60d3314d90afd6fe8c4aedf84c
+
+[START] [80/109] (2026-11-10 12:09:57 +08) ID: 7228444352672992552 | Audio Duration: 3m 43.4s
+ -------- Pool -----------
+ • Audios/7228444352672992552.mp3 | Audio Duration: 3m 43.4s | Elapsed: 0.0s
+ -------- Pool -----------
