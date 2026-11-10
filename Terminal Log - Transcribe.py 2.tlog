@@ -1,2 +1,96 @@
 
 [Model Init] Loading Whisper model 'small' on cpu (int8)...
+[Model Init] Model loaded successfully.
+
+[Batch Start] Mapped 109 audio item(s) from JSON. Running with parallel pool = 1
+======================================================================
+[SKIPPED] [1/109] Transcription already exists for ID: 7699673764590395258
+[SKIPPED] [2/109] Transcription already exists for ID: 7698673192835719857
+[SKIPPED] [3/109] Transcription already exists for ID: 7698272080051146019
+[SKIPPED] [4/109] Transcription already exists for ID: 7697904393416452539
+[SKIPPED] [5/109] Transcription already exists for ID: 7697177406745939240
+[SKIPPED] [6/109] Transcription already exists for ID: 7696831686478858362
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[SKIPPED] [7/109] Transcription already exists for ID: 7696446827038712945
+[SKIPPED] [8/109] Transcription already exists for ID: 7695714541279884401
+[SKIPPED] [9/109] Transcription already exists for ID: 7694571612683782245
+[SKIPPED] [10/109] Transcription already exists for ID: 7694204222564930235
+[SKIPPED] [11/109] Transcription already exists for ID: 7693793045133303034
+[SKIPPED] [12/109] Transcription already exists for ID: 7693443220436856763
+[SKIPPED] [13/109] Transcription already exists for ID: 7693123056339910585
+[SKIPPED] [14/109] Transcription already exists for ID: 7692719137634603130
+[SKIPPED] [15/109] Transcription already exists for ID: 7690846414461690993
+[SKIPPED] [16/109] Transcription already exists for ID: 7690437803893255089
+[SKIPPED] [17/109] Transcription already exists for ID: 7689006260293784293
+[SKIPPED] [18/109] Transcription already exists for ID: 7688999556810321649
+[SKIPPED] [19/109] Transcription already exists for ID: 7688990201779696293
+[SKIPPED] [20/109] Transcription already exists for ID: 7688984916663217274
+[SKIPPED] [21/109] Transcription already exists for ID: 7688288062279845371
+[SKIPPED] [22/109] Transcription already exists for ID: 7687083635456306682
+[SKIPPED] [23/109] Transcription already exists for ID: 7676320576646847611
+[SKIPPED] [24/109] Transcription already exists for ID: 7646689163764595643
+[SKIPPED] [25/109] Transcription already exists for ID: 7617004790380465765
+[SKIPPED] [26/109] Transcription already exists for ID: 7585511292715257139
+[SKIPPED] [27/109] Transcription already exists for ID: 7585510862056623386
+[SKIPPED] [28/109] Transcription already exists for ID: 7585151720892697883
+[SKIPPED] [29/109] Transcription already exists for ID: 7584011243195731235
+[SKIPPED] [30/109] Transcription already exists for ID: 7582909209688214799
+[SKIPPED] [31/109] Transcription already exists for ID: 7580679734456044834
+[SKIPPED] [32/109] Transcription already exists for ID: 7580346451847335208
+[SKIPPED] [33/109] Transcription already exists for ID: 7579968045452479759
+[SKIPPED] [34/109] Transcription already exists for ID: 7579577212869938484
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[WORKER EXCEPTION] Task generated an exception: 'success'
+audio_id, audio_path, paths, audio_url
+7579150487648308515 Audios/7579150487648308515.mp3 {'dir': 'Transcriptions/7579150487648308515', 'json': 'Transcriptions/7579150487648308515/T.json', 'srt': 'Transcriptions/7579150487648308515/T.srt', 'txt': 'Transcriptions/7579150487648308515/T.txt', 'tlog': 'Transcriptions/7579150487648308515/T.tlog'} None
+[DOWNLOAD ERROR] Failed to download None: unknown url type: 'None'
+[SKIPPED] [36/109] Transcription already exists for ID: 7578850310169365795
+[WORKER EXCEPTION] Task generated an exception: 'success'
+[SKIPPED] [37/109] Transcription already exists for ID: 7578121245804317967
+[WORKER EXCEPTION] Task generated an exception: 'success'
+audio_id, audio_path, paths, audio_url
+7577746205690678563 Audios/7577746205690678563.mp3 {'dir': 'Transcriptions/7577746205690678563', 'json': 'Transcriptions/7577746205690678563/T.json', 'srt': 'Transcriptions/7577746205690678563/T.srt', 'txt': 'Transcriptions/7577746205690678563/T.txt', 'tlog': 'Transcriptions/7577746205690678563/T.tlog'} https://lf26-music-east.douyinstatic.com/obj/ies-music-hj/7577746299605306161.mp3
+
+[START] [38/109] (2026-11-10 09:28:01 +08) ID: 7577746205690678563 | Audio Duration: 2m 22.7s
+ -------- Pool -----------
+ • Audios/7577746205690678563.mp3 | Audio Duration: 2m 22.7s | Elapsed: 0.0s
+ -------- Pool -----------
+
+[DONE]  [38/109] (2026-11-10 09:29:31 +08) ID: 7577746205690678563 | Start: 2026-11-10 09:28:01 +08 | End: 2026-11-10 09:29:31 +08 | Audio Duration: 2m 22.7s (142.65s) | Time Taken: 85.53s | Transc/Audio: 59.96% | Audio/Transc: 1.67x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7577746205690678563.mp3
+audio_id, audio_path, paths, audio_url
+7577350799236386088 Audios/7577350799236386088.mp3 {'dir': 'Transcriptions/7577350799236386088', 'json': 'Transcriptions/7577350799236386088/T.json', 'srt': 'Transcriptions/7577350799236386088/T.srt', 'txt': 'Transcriptions/7577350799236386088/T.txt', 'tlog': 'Transcriptions/7577350799236386088/T.tlog'} https://lf3-music-east.douyinstatic.com/obj/ies-music-hj/7577350859915266873.mp3
