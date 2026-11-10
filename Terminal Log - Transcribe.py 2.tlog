@@ -372,3 +372,16 @@ audio_id, audio_path, paths, audio_url
  -------- Pool -----------
  • Audios/7505383739292372281.mp3 | Audio Duration: 9m 35.6s | Elapsed: 0.0s
  -------- Pool -----------
+
+[DONE]  [60/109] (2026-11-10 10:31:59 +08) ID: 7505383739292372281 | Start: 2026-11-10 10:26:00 +08 | End: 2026-11-10 10:31:59 +08 | Audio Duration: 9m 35.6s (575.56s) | Time Taken: 353.75s | Transc/Audio: 61.46% | Audio/Transc: 1.63x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7505383739292372281.mp3
+audio_id, audio_path, paths, audio_url
+7472420076923129147 Audios/7472420076923129147.mp3 {'dir': 'Transcriptions/7472420076923129147', 'json': 'Transcriptions/7472420076923129147/T.json', 'srt': 'Transcriptions/7472420076923129147/T.srt', 'txt': 'Transcriptions/7472420076923129147/T.txt', 'tlog': 'Transcriptions/7472420076923129147/T.tlog'} https://sf11-cdn-tos.douyinstatic.com/obj/tos-cn-ve-2774/9054ac60d3314d90afd6fe8c4aedf84c
+
+[START] [61/109] (2026-11-10 10:32:00 +08) ID: 7472420076923129147 | Audio Duration: 3m 43.4s
+ -------- Pool -----------
+ • Audios/7472420076923129147.mp3 | Audio Duration: 3m 43.4s | Elapsed: 0.0s
+ -------- Pool -----------
