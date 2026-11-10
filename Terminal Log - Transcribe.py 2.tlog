@@ -986,3 +986,16 @@ audio_id, audio_path, paths, audio_url
  -------- Pool -----------
  • Audios/7172254902423457024.mp3 | Audio Duration: 3m 54.9s | Elapsed: 0.0s
  -------- Pool -----------
+
+[DONE]  [108/109] (2026-11-10 15:05:07 +08) ID: 7172254902423457024 | Start: 2026-11-10 15:02:50 +08 | End: 2026-11-10 15:05:07 +08 | Audio Duration: 3m 54.9s (234.92s) | Time Taken: 131.95s | Transc/Audio: 56.17% | Audio/Transc: 1.78x
+ -------- Pool -----------
+ (Pool is currently idle)
+ -------- Pool -----------
+Successfully removed: Audios/7172254902423457024.mp3
+audio_id, audio_path, paths, audio_url
+7171872285987556643 Audios/7171872285987556643.mp3 {'dir': 'Transcriptions/7171872285987556643', 'json': 'Transcriptions/7171872285987556643/T.json', 'srt': 'Transcriptions/7171872285987556643/T.srt', 'txt': 'Transcriptions/7171872285987556643/T.txt', 'tlog': 'Transcriptions/7171872285987556643/T.tlog'} https://sf11-cdn-tos.douyinstatic.com/obj/ies-music/7171872371937250062.mp3
+
+[START] [109/109] (2026-11-10 15:05:11 +08) ID: 7171872285987556643 | Audio Duration: 8m 14.3s
+ -------- Pool -----------
+ • Audios/7171872285987556643.mp3 | Audio Duration: 8m 14.3s | Elapsed: 0.0s
+ -------- Pool -----------
